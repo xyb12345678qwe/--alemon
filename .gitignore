@@ -1,8 +1,7 @@
 
 node_modules/
 
-alemon.login.ts
 
-alemon.login.js
+alemon.login.*
+./alemon.login.*
 
-alemon.login

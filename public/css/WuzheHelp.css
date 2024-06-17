@@ -1,0 +1,40 @@
+html,
+body {
+    background-image: url("../image/help.jpg");
+    background-size: 100% auto;
+    color: #fffffff0;
+    font-size: 2rem;
+}
+.box-help {
+    padding: 2rem 1rem 1rem 1rem;
+}
+
+.box-help-box {
+    padding: 4px;
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--inset-bg-color);
+    border-radius: var(--border-radius);
+    box-shadow: var(--inset-box-shadow);
+}
+.menu-button {
+    background-color: #f9f2f2de;
+    color: #635b5bfa;
+    border-radius: 6px;
+    font-size: 20px;
+    padding: 2px 8px;
+    margin: 6px;
+    display: block
+}
+
+.menu-button-flat {
+    background-color: #e7e1e1de;
+    color: #635b5bfa;
+    border-radius: 6px 6px 0 0;
+    font-size: 20px;
+    padding: 2px 8px;
+    position: absolute;
+    top: -26px;
+    left: 13px;
+}

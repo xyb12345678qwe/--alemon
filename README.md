@@ -8,6 +8,19 @@
 
 ## 使用方法
 
+先在目录下创建alemon.login.ts文件
+
+里面输入
+
+```js
+import { ALoginOptions } from 'alemonjs'
+export default ALoginOptions({
+  test: {
+   .....
+  }
+})
+```
+
 ```sh
 npm run app
 ```
